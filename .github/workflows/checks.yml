@@ -22,7 +22,7 @@ jobs:
       - name: Installing dependencies
         run: yarn --immutable
 
-      - name: Linting projects
+      - name: Linting project
         run: yarn test:lint
 
   typescript:
@@ -41,5 +41,5 @@ jobs:
       - name: Installing dependencies
         run: yarn --immutable
 
-      - name: Linting projects
+      - name: Type checking
         run: yarn test:types

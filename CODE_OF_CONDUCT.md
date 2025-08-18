@@ -1,4 +1,4 @@
-# Code of Conduct - eslint-plugin-moleculer
+# Code of Conduct
 
 ## Our Pledge
 
