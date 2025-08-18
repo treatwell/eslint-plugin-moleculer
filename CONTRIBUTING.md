@@ -9,7 +9,7 @@ to help and details about how this project handles them. Please make sure to rea
 before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience
 for all involved. The community looks forward to your contributions. 🎉
 
-> And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways 
+> And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways
 > to support the project and show your appreciation, which we would also be very happy about:
 >
 > - Star the project
@@ -66,7 +66,7 @@ We will then take care of the issue as soon as possible.
 
 #### Before Submitting a Bug Report
 
-A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you 
+A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you
 to investigate carefully, collect information and describe the issue in detail in your report.
 Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
@@ -85,7 +85,7 @@ Please complete the following steps in advance to help us fix any potential bug 
 
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to 
+> You must never report security related issues, vulnerabilities or bugs including sensitive information to
 > the issue tracker, or elsewhere in public. Instead sensitive bugs must go through the [security process](./SECURITY.md).
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
@@ -100,11 +100,10 @@ Once it's filed:
 - A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and the issue will not be addressed until they are reproduced.
 - If the team is able to reproduce the issue, it will be marked with the relevant label, and the issue will be left to be [implemented by someone](#your-first-code-contribution).
 
-
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for eslint-plugin-moleculer, 
-**including completely new features and minor improvements to existing functionality**. Following these guidelines 
+This section guides you through submitting an enhancement suggestion for eslint-plugin-moleculer,
+**including completely new features and minor improvements to existing functionality**. Following these guidelines
 will help maintainers and the community to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
@@ -146,7 +145,6 @@ You can then run the tests to make sure everything is working as expected:
 yarn test:lint
 yarn test:types
 ```
-
 
 <!-- omit in toc -->
 

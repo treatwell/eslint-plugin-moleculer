@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/@treatwell/eslint-plugin-moleculer?style=flat-square)](https://www.npmjs.com/package/@treatwell/eslint-plugin-moleculer)
 
-This plugin intends to add eslint rules in your [moleculer](https://github.com/moleculerjs/moleculer) project 
+This plugin intends to add eslint rules in your [moleculer](https://github.com/moleculerjs/moleculer) project
 when using the `@treatwell/moleculer-essentials` and `@treatwell/moleculer-call-wrapper` packages.
 
 ## Installation
