@@ -47,5 +47,8 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "yarn@4.9.2"
 }
