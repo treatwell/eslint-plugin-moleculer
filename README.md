@@ -12,7 +12,7 @@ when using the `@treatwell/moleculer-essentials` and `@treatwell/moleculer-call-
 Install `eslint-plugin-moleculer` with your package manager:
 
 ```bash
-  yarn add -D eslint-plugin-moleculer
+  yarn add -D @treatwell/eslint-plugin-moleculer
 ```
 
 Enable the plugin in your eslint config:
