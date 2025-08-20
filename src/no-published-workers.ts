@@ -1,10 +1,5 @@
-import {
-  AST_NODE_TYPES,
-  ESLintUtils,
-  TSESTree,
-} from '@typescript-eslint/utils';
-
-const createRule = ESLintUtils.RuleCreator(name => `moleculer/${name}`);
+import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils';
+import { createRule } from './utils.js';
 
 export const rule = createRule({
   create(context) {
@@ -75,6 +70,8 @@ export const rule = createRule({
     docs: {
       description:
         'Enforce that QueueWorker is not used on a service that has published actions.',
+      recommended: true,
+      requiresTypeChecking: false,
     },
     messages: {
       'unallowed-queue-worker':

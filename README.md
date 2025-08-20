@@ -16,7 +16,25 @@ Install `eslint-plugin-moleculer` with your package manager:
   yarn add -D @treatwell/eslint-plugin-moleculer
 ```
 
-Enable the plugin in your eslint config:
+### ESLint Flat config (v9+)
+
+Import the recommended config in your eslint config file (assuming you are using TS eslint):
+
+```ts
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
+import moleculer from '@treatwell/eslint-plugin-moleculer';
+
+export default tseslint.config(
+  eslint.configs.recommended,
+  tseslint.configs.recommended,
+  moleculer.configs.recommended,
+);
+```
+
+### ESLint legacy config
+
+Enable the plugin in your eslint config and add the rules you want to enforce:
 
 ```js
 module.exports = {
