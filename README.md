@@ -51,6 +51,13 @@ module.exports = {
 };
 ```
 
+## Rules
+
+| Rule                                          | Description                                                                                                                                                    |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `@treatwell/moleculer/service-property-order` | Enforce the order of service properties in Moleculer services in order to make TS types defined by `@treatwell/moleculer-essentials` work properly.            |
+| `@treatwell/moleculer/no-published-workers`   | Disallow publishing actions on services where the QueueWorker mixin is setup. Note that it doesn't catch all the cases (e.g. if actions are defined in mixins) |
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -7,5 +7,5 @@ export interface PluginDocs {
 }
 
 export const createRule = ESLintUtils.RuleCreator<PluginDocs>(
-  name => `https://github.com/treatwell/eslint-plugin-moleculer#${name}`,
+  () => `https://github.com/treatwell/eslint-plugin-moleculer#rules`,
 );
