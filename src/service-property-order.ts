@@ -1,10 +1,5 @@
-import {
-  ESLintUtils,
-  TSESTree,
-  AST_NODE_TYPES,
-} from '@typescript-eslint/utils';
-
-const createRule = ESLintUtils.RuleCreator(name => `moleculer/${name}`);
+import { TSESTree, AST_NODE_TYPES } from '@typescript-eslint/utils';
+import { createRule } from './utils.js';
 
 const PROPERTY_ORDER_DEPS: Record<string, string[]> = {
   methods: ['settings', 'mixins'],
@@ -70,6 +65,8 @@ export const rule = createRule({
     docs: {
       description:
         'Enforce that service properties are declared in a certain order.',
+      recommended: true,
+      requiresTypeChecking: false,
     },
     messages: {
       'bad-order':
