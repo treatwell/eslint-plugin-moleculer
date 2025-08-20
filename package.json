@@ -37,6 +37,8 @@
     "@tsconfig/node-lts": "^22.0.2",
     "@types/node": "^22.17.2",
     "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "jiti": "^2.5.1",
     "pkgroll": "^2.15.3",
     "prettier": "^3.6.2",
