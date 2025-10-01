@@ -50,7 +50,7 @@
     "pkgroll": "^2.15.3",
     "prettier": "^3.6.2",
     "semantic-release": "^24.2.7",
-    "typescript": "~5.9.2",
+    "typescript": "~5.9.3",
     "typescript-eslint": "^8.40.0"
   },
   "files": [
