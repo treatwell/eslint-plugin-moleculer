@@ -1,5 +1,4 @@
 import fs from 'node:fs';
-import type { TSESLint } from '@typescript-eslint/utils';
 import { rule as servicePropertyOrder } from './service-property-order.js';
 import { rule as noPublishedWorkers } from './no-published-workers.js';
 
@@ -20,7 +19,10 @@ const rules = {
   'no-published-workers': noPublishedWorkers,
 };
 
-const recommended: TSESLint.FlatConfig.Config = {
+// Taken from typescript-eslint
+type CompatibleConfig = { plugins?: object; rules?: object };
+
+const recommended: CompatibleConfig = {
   plugins: { [namespace]: { meta, rules } },
   rules: {
     [`${namespace}/service-property-order`]: 'error',
