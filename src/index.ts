@@ -20,7 +20,10 @@ const rules = {
 };
 
 // Taken from typescript-eslint
-type CompatibleConfig = { plugins?: object; rules?: object };
+type CompatibleConfig = {
+  plugins?: Record<string, object>;
+  rules?: object;
+};
 
 const recommended: CompatibleConfig = {
   plugins: { [namespace]: { meta, rules } },
