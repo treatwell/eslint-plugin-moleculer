@@ -47,7 +47,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "jiti": "^2.6.1",
-    "pkgroll": "^2.21.4",
+    "pkgroll": "^2.23.0",
     "prettier": "^3.7.4",
     "semantic-release": "^25.0.2",
     "typescript": "~5.9.3",
