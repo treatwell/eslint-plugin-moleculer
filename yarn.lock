@@ -1241,7 +1241,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-prettier: "npm:^5.5.5"
     jiti: "npm:^2.6.1"
-    pkgroll: "npm:^2.26.3"
+    pkgroll: "npm:^2.27.0"
     prettier: "npm:^3.8.1"
     semantic-release: "npm:^25.0.3"
     typescript: "npm:~5.9.3"
@@ -4406,9 +4406,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkgroll@npm:^2.26.3":
-  version: 2.26.3
-  resolution: "pkgroll@npm:2.26.3"
+"pkgroll@npm:^2.27.0":
+  version: 2.27.0
+  resolution: "pkgroll@npm:2.27.0"
   dependencies:
     "@rollup/plugin-alias": "npm:^6.0.0"
     "@rollup/plugin-commonjs": "npm:^29.0.0"
@@ -4429,7 +4429,7 @@ __metadata:
       optional: true
   bin:
     pkgroll: dist/cli.mjs
-  checksum: 10c0/ce55871486eb3b10fce0e961f6a614865b0f6ea3a397145a3aad557f307b8343452f61a9bff6ae678af64f3b6b4bc7e412e16fcced884d3db51dd125439d3774
+  checksum: 10c0/ecbc4c26e2acf96999a3c857e477d2d01cf788ff453ed76b5f7d1e3c5e555f7d4310048bc444fb917b0192881d12c350f8f37b598dba7f781d661b41b7cf8b73
   languageName: node
   linkType: hard
 
