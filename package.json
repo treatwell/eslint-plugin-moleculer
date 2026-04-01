@@ -33,11 +33,11 @@
     "test:lint": "eslint . --max-warnings=0 && prettier -c ."
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^8.57.2"
+    "@typescript-eslint/utils": "^8.58.0"
   },
   "peerDependencies": {
     "eslint": "^8.57.0 || ^9.0.0 || ^10.0.0",
-    "typescript": ">=4.8.4 <6.0.0"
+    "typescript": ">=4.8.4 <6.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -51,7 +51,7 @@
     "prettier": "^3.8.1",
     "semantic-release": "^25.0.3",
     "typescript": "~5.9.3",
-    "typescript-eslint": "^8.57.2"
+    "typescript-eslint": "^8.58.0"
   },
   "files": [
     "dist"
