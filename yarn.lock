@@ -800,9 +800,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-commonjs@npm:^29.0.0":
-  version: 29.0.0
-  resolution: "@rollup/plugin-commonjs@npm:29.0.0"
+"@rollup/plugin-commonjs@npm:^29.0.1":
+  version: 29.0.3
+  resolution: "@rollup/plugin-commonjs@npm:29.0.3"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     commondir: "npm:^1.0.1"
@@ -816,7 +816,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 10c0/e19f99aace255e625c3f92169108d444e522eb1119e26ec3af2e2744ec1d81d765ba1140e59afc9881a8640e0fcfe25a3b927d3c6877b850d57d6acddc1c5223
+  checksum: 10c0/e2aa2e4c99a72354b7aef932d222c7748155f29cd1d45ed692de56bbd524d4a36f99b0549d2cb293d878f1de83d7b47d7da82c67954dade3f8d42e891c0a9016
   languageName: node
   linkType: hard
 
@@ -1255,7 +1255,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-prettier: "npm:^5.5.5"
     jiti: "npm:^2.6.1"
-    pkgroll: "npm:^2.27.0"
+    pkgroll: "npm:^2.27.1"
     prettier: "npm:^3.8.3"
     semantic-release: "npm:^25.0.3"
     typescript: "npm:~6.0.3"
@@ -4395,12 +4395,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkgroll@npm:^2.27.0":
-  version: 2.27.0
-  resolution: "pkgroll@npm:2.27.0"
+"pkgroll@npm:^2.27.1":
+  version: 2.27.1
+  resolution: "pkgroll@npm:2.27.1"
   dependencies:
     "@rollup/plugin-alias": "npm:^6.0.0"
-    "@rollup/plugin-commonjs": "npm:^29.0.0"
+    "@rollup/plugin-commonjs": "npm:^29.0.1"
     "@rollup/plugin-dynamic-import-vars": "npm:^2.1.5"
     "@rollup/plugin-json": "npm:^6.1.0"
     "@rollup/plugin-node-resolve": "npm:^16.0.3"
@@ -4418,7 +4418,7 @@ __metadata:
       optional: true
   bin:
     pkgroll: dist/cli.mjs
-  checksum: 10c0/ecbc4c26e2acf96999a3c857e477d2d01cf788ff453ed76b5f7d1e3c5e555f7d4310048bc444fb917b0192881d12c350f8f37b598dba7f781d661b41b7cf8b73
+  checksum: 10c0/564eef89635bcae2ff37722572f2967a39b59d8af5a2bc0d05cc12520580bf5f8159449d41edd83882163751a3cd47acf3b92a402338a529aedc4308763392ee
   languageName: node
   linkType: hard
 
