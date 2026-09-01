@@ -1255,7 +1255,7 @@ __metadata:
   resolution: "@treatwell/eslint-plugin-moleculer@workspace:."
   dependencies:
     "@eslint/js": "npm:^10.0.1"
-    "@tsconfig/node-lts": "npm:^24.0.0"
+    "@tsconfig/node-lts": "npm:^24.0.1"
     "@types/node": "npm:^24.13.3"
     "@typescript-eslint/utils": "npm:^8.58.0"
     eslint: "npm:^10.8.1"
@@ -1273,10 +1273,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tsconfig/node-lts@npm:^24.0.0":
-  version: 24.0.0
-  resolution: "@tsconfig/node-lts@npm:24.0.0"
-  checksum: 10c0/63f5e2c576d4beb19e92ce32b22b132b013b66327137d7c54ee15f9b19812e2ed81bcc5d16ce32450ac7114e774d57100cabd4442571827ed50bfba58aaded0e
+"@tsconfig/node-lts@npm:^24.0.1":
+  version: 24.0.1
+  resolution: "@tsconfig/node-lts@npm:24.0.1"
+  checksum: 10c0/deb49f9e960627d9c3eb33816dbe1bb158d52adce41567385042d465dca562ab1caad354f7d22081b65333c7e37889baee67519093aba0920cfa040ab4acbeb0
   languageName: node
   linkType: hard
 
