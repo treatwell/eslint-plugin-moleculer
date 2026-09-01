@@ -51,7 +51,7 @@
     "prettier": "^3.9.6",
     "semantic-release": "^25.0.9",
     "typescript": "~6.0.3",
-    "typescript-eslint": "^8.59.2"
+    "typescript-eslint": "^8.68.0"
   },
   "files": [
     "dist"
